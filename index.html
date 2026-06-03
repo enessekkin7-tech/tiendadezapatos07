@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TIENDADEZAPATOS07</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#222;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1542291026-7eec264c27ff');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:2.5rem;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+}
+
+.price{
+    color:red;
+    font-weight:bold;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:10px;
+    background:#111;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer{
+    text-align:center;
+    background:#111;
+    color:white;
+    padding:20px;
+    margin-top:30px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>TIENDADEZAPATOS07</h1>
+<p>Erkek & Kadın Ayakkabı Mağazası</p>
+</header>
+
+<nav>
+<a href="#urunler">Ürünler</a>
+<a href="#hakkimizda">Hakkımızda</a>
+<a href="#iletisim">İletişim</a>
+</nav>
+
+<section class="hero">
+<h2>Şıklık ve Konfor</h2>
+<p>En yeni erkek ve kadın ayakkabı modelleri</p>
+</section>
+
+<div class="container" id="urunler">
+<h2>Öne Çıkan Ürünler</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+<div class="card-content">
+<h3>Erkek Spor Ayakkabı</h3>
+<p class="price">1299 TL</p>
+<a href="#" class="btn">İncele</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77">
+<div class="card-content">
+<h3>Kadın Spor Ayakkabı</h3>
+<p class="price">1199 TL</p>
+<a href="#" class="btn">İncele</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000">
+<div class="card-content">
+<h3>Erkek Klasik Ayakkabı</h3>
+<p class="price">1499 TL</p>
+<a href="#" class="btn">İncele</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2">
+<div class="card-content">
+<h3>Kadın Günlük Ayakkabı</h3>
+<p class="price">1099 TL</p>
+<a href="#" class="btn">İncele</a>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="container" id="hakkimizda">
+<h2>Hakkımızda</h2>
+<p>
+TIENDADEZAPATOS07 erkek ve kadın ayakkabı satışında kaliteli ve uygun fiyatlı ürünler sunar.
+</p>
+</div>
+
+<div class="container" id="iletisim">
+<h2>İletişim</h2>
+<p>Telefon: +90 5XX XXX XX XX</p>
+<p>Email: info@tiendadezapatos07.com</p>
+</div>
+
+<footer>
+<p>© 2026 TIENDADEZAPATOS07</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/905000000000">
+WhatsApp
+</a>
+
+</body>
+</html>
